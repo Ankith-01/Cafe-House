@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Login</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <style>
+        body {
+            background: url("pics/bg1.jpeg");
+            background-position: crop;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <img src="pics/avatar.png" class="avatar">
+        <h1>Login</h1>
+        <form id="loginpage" action="next.html" method="post">
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="E-mail">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Password" id="password">
+            <input type="submit" value="Login">
+        </form>
+        <p id="errorMessage" class="error"></p>
+        <p id="successMessage" class="success"></p>
+    </div>
+    <script src="login.js">
+    </script>
+    <header>
+        <h1>Cafe House</h1>
+        <ul>
+
+            <li id="home">
+                <a href="frontpage.html">Home</a></li>
+            <li id="about">
+                <a href="about.html">About us</a>
+            </li>
+            <li id="contact">
+                <a href="contact.html">Contact Us</a>
+            </li>
+
+        </ul>
+
+    </header>
+    <footer>
+
+        <p>© Cafe House, Inc. All rights reserved · Privacy · Terms · Security</p>
+
+    </footer>
+</body>
+
+</html>
+
+</html>
